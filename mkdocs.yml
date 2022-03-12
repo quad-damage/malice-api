@@ -1,0 +1,11 @@
+site_name: Malice API
+theme:
+  name: material
+  logo: assets\logo-white.png
+  favicon: assets\logo-color.png
+  palette:
+    primary: deep purple
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
