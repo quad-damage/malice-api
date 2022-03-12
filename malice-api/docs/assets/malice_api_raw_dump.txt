@@ -1,0 +1,390 @@
+[malice] --- player
+[malice]     __pairs (function): function: 2C0C9618
+[malice]     index (function): function: 2C0C9228
+[malice]     absolute_origin (function): function: 2C0C8D58
+[malice]     velocity (function): function: 2C0C8DC8
+[malice]     angles (function): function: 2C0C8E00
+[malice]     team (function): function: 2C0C8CB0
+[malice]     __type (table):
+[malice]       name (string): player_t
+[malice]       is (function): function: 32736FD0
+[malice]     view_offset (function): function: 2C0C9148
+[malice]     is_dormant (function): function: 2C0C9030
+[malice]     get_hitbox_position (function): function: 2C0C9260
+[malice]     __gc (function): function: 2C0C9650
+[malice]     __eq (function): function: 2C0C9458
+[malice]     is_scoped (function): function: 2C0C9500
+[malice]     origin (function): function: 2C0C9110
+[malice]     has_heavy_armor (function): function: 2C0C97A0
+[malice]     name (function): function: 2C0C90D8
+[malice]     __name (string): sol.player_t.user
+[malice]     is_alive (function): function: 2C0C8CE8
+[malice]     bot (function): function: 2C0C91F0
+[malice]     health (function): function: 2C0C91B8
+[malice]     has_helmet (function): function: 2C0C95E0
+[malice]  
+[malice] --- math
+[malice]     exp (function): function: 3285B310
+[malice]     atan (function): function: 3285AE00
+[malice]     sqrt (function): function: 3285B1D0
+[malice]     rad (function): function: 3285B380
+[malice]     cos (function): function: 3285AD00
+[malice]     sin (function): function: 3285ACC0
+[malice]     deg (function): function: 3285B350
+[malice]     abs (function): function: 3285AC40
+[malice]     mininteger (number): -9223372036854775808
+[malice]     ceil (function): function: 3285AF60
+[malice]     floor (function): function: 3285AEC0
+[malice]     maxinteger (number): 9223372036854775807
+[malice]     huge (number): inf
+[malice]     type (function): function: 3285B610
+[malice]     asin (function): function: 3285AD80
+[malice]     pi (number): 3.1415926535898
+[malice]     acos (function): function: 3285ADC0
+[malice]     tointeger (function): function: 3285AE60
+[malice]     random (function): function: 3285B490
+[malice]     randomseed (function): function: 3285B5D0
+[malice]     modf (function): function: 3285B100
+[malice]     fmod (function): function: 3285B000
+[malice]     min (function): function: 3285B3B0
+[malice]     max (function): function: 3285B420
+[malice]     log (function): function: 3285B270
+[malice]     ult (function): function: 3285B210
+[malice]     tan (function): function: 3285AD40
+[malice]  
+[malice] --- penetration
+[malice]     can_penetrate (function): function: 3133CB40
+[malice]  
+[malice] --- hitboxes
+[malice]  
+
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+[malice] --- color
+[malice]     __pairs (function): function: 2C0C6B38
+[malice]     g (function): function: 2C0C67B8
+[malice]     __eq (function): function: 2C0C6DA0
+[malice]     from_hsb (function): function: 2C0C62E8
+[malice]     b (function): function: 2C0C66D8
+[malice]     a (function): function: 2C0C6710
+[malice]     __name (string): sol.Color.user
+[malice]     __gc (function): function: 2C0C6978
+[malice]     __type (table):
+[malice]       name (string): Color
+[malice]       is (function): function: 32739B10
+[malice]     new (function): function: 2C0C67F0
+[malice]     r (function): function: 2C0C65F8
+[malice]     from_hsv (function): function: 2C0C6748
+[malice]  
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+
+[malice] --- vector
+[malice]     z (function): function: 2C0C7318
+[malice]     y (function): function: 2C0C73C0
+[malice]     x (function): function: 2C0C72E0
+[malice]     length_2d_sqr (function): function: 2C0C7430
+[malice]     dist_to_sqr (function): function: 2C0C7190
+[malice]     length (function): function: 2C0C75F0
+[malice]     __type (table):
+[malice]       name (string): Vector
+[malice]       is (function): function: 32732830
+[malice]     zero (function): function: 2C0C7548
+[malice]     __le (function): function: 2C0C7468
+[malice]     __gc (function): function: 2C0C75B8
+[malice]     length_sqr (function): function: 2C0C71C8
+[malice]     dist_to (function): function: 2C0C7698
+[malice]     new (function): function: 2C0C74D8
+[malice]     normalize (function): function: 2C0C7740
+[malice]     __lt (function): function: 2C0C70E8
+[malice]     is_valid (function): function: 2C0C76D0
+[malice]     __name (string): sol.Vector.user
+[malice]     length_2d (function): function: 2C0C7388
+[malice]     __pairs (function): function: 2C0C7078
+[malice]     __eq (function): function: 2C0C7510
+[malice]     cross_product (function): function: 2C0C74A0
+[malice]     is_zero (function): function: 2C0C7708
+[malice]  
+[malice] --- entities
+[malice]     get_local_player (function): function: 3133E0E8
+[malice]     get_player_weapon (function): function: 3133E510
+[malice]     get_player_by_index (function): function: 3133E5B8
+[malice]  
+[malice] --- cmd
+[malice]     get_send_packet (function): function: 3133E3C0
+[malice]     get_movement (function): function: 3133E4D8
+[malice]     get_button_state (function): function: 3133E2A8
+[malice]     set_button_state (function): function: 3133E3F8
+[malice]     set_send_packet (function): function: 3133E388
+[malice]     set_movement (function): function: 3133E350
+[malice]     get_choke (function): function: 3133E270
+[malice]  
+[malice] --- debug
+[malice]     getinfo (function): function: 3285E4C0
+[malice]     traceback (function): function: 3285F090
+[malice]     getmetatable (function): function: 3285E3C0
+[malice]     getupvalue (function): function: 3285EA40
+[malice]     debug (function): function: 3285EF10
+[malice]     setlocal (function): function: 3285E910
+[malice]     getregistry (function): function: 3285E3A0
+[malice]     gethook (function): function: 3285EDE0
+[malice]     upvalueid (function): function: 3285EAF0
+[malice]     getlocal (function): function: 3285E7C0
+[malice]     getuservalue (function): function: 3285E440
+[malice]     upvaluejoin (function): function: 3285EB50
+[malice]     setuservalue (function): function: 3285E480
+[malice]     sethook (function): function: 3285EC20
+[malice]     setmetatable (function): function: 3285E3F0
+[malice]     setupvalue (function): function: 3285EA90
+[malice]  
+[malice] --- os
+[malice]     difftime (function): function: 32857390
+[malice]     tmpname (function): function: 32856E80
+[malice]     time (function): function: 32857230
+[malice]     date (function): function: 32856F60
+[malice]     setlocale (function): function: 328573D0
+[malice]     rename (function): function: 32856E30
+[malice]     remove (function): function: 32856E00
+[malice]     execute (function): function: 32856DB0
+[malice]     exit (function): function: 32857420
+[malice]     clock (function): function: 32856F20
+[malice]     getenv (function): function: 32856EF0
+[malice]  
+
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+[malice] --- engine
+[malice]     is_connected (function): function: 3133DD30
+[malice]     get_view_angles (function): function: 3133DB70
+[malice]     get_player_for_user_id (function): function: 3133D978
+[malice]     is_in_game (function): function: 3133DDD8
+[malice]     get_level_name_short (function): function: 3133DC50
+[malice]     get_level_name (function): function: 3133DC88
+[malice]     is_paused (function): function: 3133DD68
+[malice]     is_playing_demo (function): function: 3133DE80
+[malice]     get_local_player_index (function): function: 3133DF28
+[malice]     is_recording_demo (function): function: 3133DEB8
+[malice]     is_hltv (function): function: 3133D9E8
+[malice]     get_screen_width (function): function: 3133DE48
+[malice]     is_taking_screenshot (function): function: 3133DBE0
+[malice]     set_view_angles (function): function: 3133DFD0
+[malice]     get_map_group_name (function): function: 3133DCF8
+[malice]     get_screen_height (function): function: 3133DDA0
+[malice]  
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+
+[malice] --- ui
+[malice]     is_keybind_set (function): function: 3133D7B8
+[malice]     set_color (function): function: 3133D860
+[malice]     add_int_slider (function): function: 3133D400
+[malice]     get_keybind_state (function): function: 3133D828
+[malice]     get_float (function): function: 3133D5C0
+[malice]     next_line (function): function: 3133D3C8
+[malice]     add_multi_dropdown (function): function: 3133D7F0
+[malice]     set_int (function): function: 3133D518
+[malice]     add_checkbox (function): function: 3133D4A8
+[malice]     add_label (function): function: 3133D320
+[malice]     is_open (function): function: 3133D630
+[malice]     add_color_picker (function): function: 3133D6D8
+[malice]     set_float (function): function: 3133D550
+[malice]     get_keybind_mode (function): function: 3133D4E0
+[malice]     get_color (function): function: 3133D5F8
+[malice]     get_int (function): function: 3133D748
+[malice]     add_float_slider (function): function: 3133D438
+[malice]     set_bool (function): function: 3133D780
+[malice]     get_dropdown (function): function: 3133D470
+[malice]     get_bool (function): function: 3133D588
+[malice]     add_dropdown (function): function: 3133D2B0
+[malice]  
+[malice] --- console
+[malice]     set_string (function): function: 3133E120
+[malice]     print_color (function): function: 3133E0B0
+[malice]     print (function): function: 3133E580
+[malice]     get_string (function): function: 3133E4A0
+[malice]     get_float (function): function: 3133E318
+[malice]     get_int (function): function: 3133E5F0
+[malice]     execute (function): function: 3133E1C8
+[malice]     set_float (function): function: 3133E698
+[malice]     set_int (function): function: 3133E2E0
+[malice]  
+
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+[malice] --- client
+[malice]     register_event (function): function: 3133CF68
+[malice]     register_callback (function): function: 3133CDE0
+[malice]     get_current_weapon_category_index (function): function: 3133CFA0
+[malice]     load_script (function): function: 3133D1D0
+[malice]     set_clantag (function): function: 3133CC90
+[malice]     log (function): function: 3133D048
+[malice]     unload_script (function): function: 3133CCC8 ]]--
+[malice]  
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+[malice] --- globals
+[malice]     get_max_clients (function): function: 3133DE10
+[malice]     get_ping (function): function: 3133D898
+[malice]     get_curtime (function): function: 3133D2E8
+[malice]     get_username (function): function: 3133D9B0
+[malice]     get_realtime (function): function: 3133D240
+[malice]     get_intervalpertick (function): function: 3133DF98
+[malice]     get_time (function): function: 3133D908
+[malice]     get_thirdperson (function): function: 3133D6A0
+[malice]     get_tickcount (function): function: 3133DCC0
+[malice]     get_frametime (function): function: 3133D710
+[malice]     get_framecount (function): function: 3133D278
+[malice]     get_framerate (function): function: 3133D668
+[malice]     get_server_address (function): function: 3133D8D0
+[malice]  
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ---- 
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+
+[malice] --- shot_info
+[malice]     __pairs (function): function: 3133CBB0
+[malice]     __name (string): sol.shot_info.user
+[malice]     new (function): function: 3133CD70
+[malice]     __type (table):
+[malice]       name (string): shot_info
+[malice]       is (function): function: 3273D020
+[malice]     __eq (function): function: 3133CD38
+[malice]     __gc (function): function: 3133CF30
+[malice]  
+[malice] --- requests
+[malice]     get (function): function: 3133E548
+[malice]     post (function): function: 3133E468
+[malice]     post_typed (function): function: 3133E660
+[malice]  
+[malice] --- keybinds
+[malice]  
+[malice] --- table
+[malice]     concat (function): function: 328540B0
+[malice]     sort (function): function: 32854430
+[malice]     remove (function): function: 32853CA0
+[malice]     move (function): function: 32853E10
+[malice]     pack (function): function: 328542D0
+[malice]     insert (function): function: 32853B20
+[malice]     unpack (function): function: 32854340
+[malice]  
+
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ---- 
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+[malice] --- render
+[malice]     text_centered (function): function: 3133DA90
+[malice]     create_font (function): function: 3133DEF0
+[malice]     triangle (function): function: 3133DC18
+[malice]     circle (function): function: 3133DB38
+[malice]     circle_filled (function): function: 3133DBA8
+[malice]     rect_gradient (function): function: 3133DB00
+[malice]     rect_filled (function): function: 3133DA58
+[malice]     get_text_width (function): function: 3133DAC8
+[malice]     text (function): function: 3133DF60
+[malice]     line (function): function: 3133D940
+[malice]     rect (function): function: 3133DA20
+[malice]     world_to_screen (function): function: 3133E008
+[malice]  
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ---- 
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+---- DOCUMENTED ---- ---- DOCUMENTED ---- ---- DOCUMENTED ----
+
+[malice] --- weapon
+[malice]     ammo (function): function: 2C0C9EA0
+[malice]     is_gun (function): function: 2C0C9CE0
+[malice]     inaccuracy (function): function: 2C0C9DF8
+[malice]     fireable (function): function: 2C0C9CA8
+[malice]     __pairs (function): function: 2C0C9BC8
+[malice]     __eq (function): function: 2C0C9FF0
+[malice]     name (function): function: 2C0C9AB0
+[malice]     spread (function): function: 2C0C9D88
+[malice]     __type (table):
+[malice]       name (string): weapon_t
+[malice]       is (function): function: 327385B0
+[malice]     scopable (function): function: 2C0C9F10
+[malice]     __name (string): sol.weapon_t.user
+[malice]     __gc (function): function: 2C0C9E30
+[malice]  
+[malice] --- exploits
+[malice]     override_tickbase (function): function: 3133D128
+[malice]     is_charged (function): function: 3133CE18
+[malice]     set_tickshift (function): function: 3133CFD8
+[malice]     set_tolerance (function): function: 3133CE50
+[malice]     ticks_to_shift (function): function: 3133D160
+[malice]  
+[malice] --- file
+[malice]     read (function): function: 3133E430
+[malice]     append (function): function: 3133E158
+[malice]     write (function): function: 3133E628
+[malice]  
+[malice] --- entity
+[malice]     __pairs (function): function: 2C0C81C0
+[malice]     set_prop_int (function): function: 2C0C7EE8
+[malice]     get_prop_int (function): function: 2C0C77E8
+[malice]     set_prop_float (function): function: 2C0C8230
+[malice]     __eq (function): function: 2C0C8118
+[malice]     set_prop_bool (function): function: 2C0C82D8
+[malice]     __name (string): sol.entity_t.user
+[malice]     get_prop_float (function): function: 2C0C77B0
+[malice]     __type (table):
+[malice]       name (string): entity_t
+[malice]       is (function): function: 327341E0
+[malice]     get_prop_bool (function): function: 2C0C7F90
+[malice]     get_prop_string (function): function: 2C0C8348
+[malice]     __gc (function): function: 2C0C7FC8
+[malice]  
+[malice] --- buttons
+[malice]  
+[malice] --- keybind_mode
+[malice]  
+[malice] --- string
+[malice]     format (function): function: 32858220
+[malice]     rep (function): function: 32857A10
+[malice]     gmatch (function): function: 32857F00
+[malice]     unpack (function): function: 32858EE0
+[malice]     reverse (function): function: 32857840
+[malice]     match (function): function: 32857EE0
+[malice]     len (function): function: 328576D0
+[malice]     byte (function): function: 32857BD0
+[malice]     dump (function): function: 32857E10
+[malice]     char (function): function: 32857D50
+[malice]     packsize (function): function: 32858DA0
+[malice]     pack (function): function: 32858870
+[malice]     upper (function): function: 32857970
+[malice]     find (function): function: 32857EC0
+[malice]     sub (function): function: 32857720
+[malice]     gsub (function): function: 32857FA0
+[malice]     lower (function): function: 328578D0
+[malice]  
+[malice] --- antiaim
+[malice]     get_desync_yaw (function): function: 3133D358
+[malice]     get_desync_delta (function): function: 3133D390
+[malice]     get_real_yaw (function): function: 3133CB78
+[malice]     set_desync_delta (function): function: 3133D208
+[malice]  
+[malice] --- event
+[malice]     get_bool (function): function: 3133C718
+[malice]     set_string (function): function: 3133C638
+[malice]     get_string (function): function: 3133C4E8
+[malice]     __eq (function): function: 3133C670
+[malice]     set_bool (function): function: 3133C788
+[malice]     __pairs (function): function: 3133C9F0
+[malice]     get_float (function): function: 3133C4B0
+[malice]     get_int (function): function: 3133C478
+[malice]     __name (string): sol.IGameEvent.user
+[malice]     __type (table):
+[malice]       name (string): IGameEvent
+[malice]       is (function): function: 3273B320
+[malice]     set_float (function): function: 3133C7C0
+[malice]     set_int (function): function: 3133C5C8
+[malice]     __gc (function): function: 3133C7F8
